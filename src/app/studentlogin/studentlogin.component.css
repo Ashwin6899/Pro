@@ -1,0 +1,55 @@
+.login-box{
+    width:400px;
+    height:480px;
+    background:rgba(211, 211, 211, 0.945);
+    color:rgb(15, 14, 14);
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:70px 30px;
+    padding-top: 2em;
+    }
+    .main{
+       
+        height: 45.5em;
+        background-image:url(src/assets/Loginpage.jpeg);
+        width: 95.6em;
+        background-size:cover;
+        
+    }
+   
+     p{
+        margin:0;
+        padding:0;
+        font-weight:bold;
+        }
+
+        /* .admin{
+            width:75px;
+            height:75px;
+            border-radius:70%;
+            position:absolute;
+            top:-50px;
+            left:calc(50% - 50px);
+            } */
+
+        h4{
+            margin:0;
+            padding:0 0 20px;
+            text-align:center;
+            font-size:22px
+            }
+
+.login-box input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+width: 20em;
+color:#fff;
+font-size:16px;
+}
